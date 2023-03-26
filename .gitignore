@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# editors
+.idea/
+.vscode/
+.nova/
+
+# testing
+
+# production
+dist
+
+# debug
+.pnpm-debug.log*
+
+# misc
+.DS_Store
+.turbo

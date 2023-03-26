@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+dist
+
+pnpm-lock.yaml
+.idea
+.vscode
+.nova
+**/.dockerignore

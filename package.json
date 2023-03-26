@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "eslint:check": "eslint --max-warnings 0 --ext .ts,.tsx ./",
+    "eslint:fix": "eslint --ext .ts,.tsx ./ --fix",
+    "ts:check": "turbo run ts:check",
+    "prettier:check": "prettier --check **/*.{ts,tsx}",
+    "prettier:write": "prettier --write **/*.{ts,tsx}",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.4.8",
+    "@changesets/cli": "2.26.1",
+    "prettier": "2.8.7",
+    "prettier-plugin-tailwindcss": "0.2.5",
+    "turbo": "1.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@7.29.1"
+}
